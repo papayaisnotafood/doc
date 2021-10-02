@@ -11,5 +11,14 @@ fields:
     date_format: 
     time_format: 
     display_utc: false
+- name: d
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: d
 pages:
 - content/post.md
